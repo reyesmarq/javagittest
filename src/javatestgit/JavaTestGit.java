@@ -18,6 +18,7 @@ public class JavaTestGit {
      */
     public static void main(String[] args) {
         JOptionPane.showMessageDialog(null, "testing");
+        JOptionPane.showMessageDialog(null, "testing 2");
     }
     
 }
