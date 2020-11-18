@@ -17,8 +17,12 @@ public class JavaTestGit {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        JOptionPane.showMessageDialog(null, "testing");
-        JOptionPane.showMessageDialog(null, "testing 2");
+        int a = 10;
+
+        if (a > 10) {
+            JOptionPane.showMessageDialog(null, "testing");
+        } else {
+            JOptionPane.showMessageDialog(null, "testing 2");
+        }
     }
-    
 }
